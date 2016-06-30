@@ -1,14 +1,14 @@
 import UIKit
+import Eureka
 
-class ViewController: UIViewController {
+class TaskViewController: FormViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    title = "Add Task"
   }
-
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
-
 }
-
